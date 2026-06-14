@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>АстраАвтоСаратов — автозапчасти и онлайн-запись в автосервис в Саратове</title>
+  <meta name="description" content="АстраАвтоСаратов — магазин автозапчастей и автосервис на Октябрьской, 59 в Саратове. Запчасти для отечественных и иномарок, диагностика, ремонт двигателя, подвески, тормозов. Оставьте онлайн-заявку — менеджер свяжется с вами." />
+  <meta name="keywords" content="автозапчасти Саратов, запчасти для иномарок, автосервис Саратов, диагностика авто, ремонт подвески, замена масла, АстраАвтоСаратов, Октябрьская 59" />
+  <meta name="theme-color" content="#ffffff" />
+  <link rel="canonical" href="https://astraavtosaratov.example/" />
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="АстраАвтоСаратов — автозапчасти и онлайн-запись в автосервис" />
+  <meta property="og:description" content="Укажите марку, модель и симптомы — заявка сразу придёт менеджеру. Запчасти в наличии и под заказ, ремонт и диагностика в Саратове." />
+  <meta property="og:locale" content="ru_RU" />
+
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Ctext y='20' font-size='20'%3E%F0%9F%9A%97%3C/text%3E%3C/svg%3E" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+
+  <!-- SEO: структурированные данные об организации -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": ["AutoPartsStore", "AutoRepair"],
+    "name": "АстраАвтоСаратов",
+    "image": "https://astraavtosaratov.example/og.jpg",
+    "description": "Магазин автозапчастей и автосервис в Саратове: запчасти для отечественных автомобилей и иномарок, диагностика, ремонт двигателя, подвески, тормозной системы.",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Октябрьская улица, 59",
+      "addressLocality": "Саратов",
+      "addressCountry": "RU"
+    },
+    "telephone": "+79271433332",
+    "openingHoursSpecification": {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+      "opens": "10:00",
+      "closes": "19:00"
+    },
+    "priceRange": "от 500 ₽"
+  }
+  </script>
+</head>
+<body>
+  <!-- ======================= ШАПКА ======================= -->
+  <header class="header" id="header">
+    <div class="container header__inner">
+      <a href="#hero" class="logo" aria-label="АстраАвтоСаратов — на главную">
+        <span class="logo__mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 1 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-4 0v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 1 1-2.83-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1 0-4h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 1 1 2.83-2.83l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 4 0v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 1 1 2.83 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1z"/></svg>
+        </span>
+        <span class="logo__text">АстраАвто<span>Саратов</span></span>
+      </a>
+
+      <nav class="nav" id="nav">
+        <a href="#about" class="nav__link">О нас</a>
+        <a href="#services" class="nav__link">Услуги и цены</a>
+        <a href="#address" class="nav__link">Адрес</a>
+        <a href="#lead" class="btn btn--primary btn--sm nav__cta">Записаться</a>
+      </nav>
+
+      <button class="burger" id="burger" aria-label="Меню" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <!-- ======================= HERO ======================= -->
+    <section class="hero" id="hero">
+      <div class="hero__bg" aria-hidden="true"></div>
+      <div class="container hero__inner">
+        <div class="hero__content reveal">
+          <span class="badge">
+            <span class="badge__dot"></span> Онлайн-запись за 2 минуты
+          </span>
+
+          <h1 class="hero__title">
+            Запчасти и ремонт<br />
+            в <span class="accent">АстраАвтоСаратов</span>
+          </h1>
+
+          <p class="hero__subtitle">
+            Магазин автозапчастей и автосервис в Саратове. Оставьте онлайн-заявку:
+            укажите марку, модель и симптомы — заявка сразу придёт менеджеру,
+            и мы подберём детали и время ремонта.
+          </p>
+
+          <div class="hero__actions">
+            <a href="#lead" class="btn btn--primary">
+              <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+              Записаться
+            </a>
+            <a href="tel:+79271433332" class="btn btn--ghost">
+              <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+              Позвонить
+            </a>
+          </div>
+
+          <dl class="stats">
+            <div class="stats__item">
+              <dt class="stats__num">1000+</dt>
+              <dd class="stats__label">позиций запчастей</dd>
+            </div>
+            <div class="stats__item">
+              <dt class="stats__num">15 мин</dt>
+              <dd class="stats__label">время ответа</dd>
+            </div>
+            <div class="stats__item">
+              <dt class="stats__num">Гарантия</dt>
+              <dd class="stats__label">на работы и детали</dd>
+            </div>
+          </dl>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================= О КОМПАНИИ ======================= -->
+    <section class="section" id="about">
+      <div class="container">
+        <div class="section__head reveal">
+          <span class="eyebrow">О компании</span>
+          <h2 class="section__title">АстраАвтоСаратов — запчасти и сервис в одном месте</h2>
+          <p class="section__lead">
+            Мы продаём автозапчасти для отечественных автомобилей, корейских и
+            европейских иномарок — и сразу можем установить их в собственном сервисе.
+            Зажигание, подвеска, тормоза, охлаждение, выхлопная система, трансмиссия:
+            детали в наличии и под заказ. Доставка и самовывоз, оплата картой,
+            гарантия на работы.
+          </p>
+        </div>
+
+        <div class="features">
+          <article class="feature-card reveal">
+            <div class="feature-card__icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M20.91 8.84 8.56 2.23a1.93 1.93 0 0 0-1.81 0L3.1 4.13a2.12 2.12 0 0 0-.05 3.69l12.22 6.93a2 2 0 0 0 1.94 0L21 12.51a2.12 2.12 0 0 0-.09-3.67Z"/><path d="m3.09 8.84 8.66 4.92v8.16"/><path d="M20.91 8.84 12.25 13.76"/></svg>
+            </div>
+            <h3>Запчасти в наличии и под заказ</h3>
+            <p>Для отечественных авто и иномарок: подберём оригинал или качественный аналог под ваш бюджет.</p>
+          </article>
+
+          <article class="feature-card reveal">
+            <div class="feature-card__icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></svg>
+            </div>
+            <h3>Свой автосервис</h3>
+            <p>Диагностика, ремонт двигателя, подвески, тормозов и автоэлектрики. Сразу купили — сразу установили.</p>
+          </article>
+
+          <article class="feature-card reveal">
+            <div class="feature-card__icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="1" y="3" width="15" height="13"/><polygon points="16 8 20 8 23 11 23 16 16 16 16 8"/><circle cx="5.5" cy="18.5" r="2.5"/><circle cx="18.5" cy="18.5" r="2.5"/></svg>
+            </div>
+            <h3>Доставка и самовывоз</h3>
+            <p>Привезём заказ или заберёте сами на Октябрьской, 59. Оплата картой и наличными.</p>
+          </article>
+
+          <article class="feature-card reveal">
+            <div class="feature-card__icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><polyline points="9 11 12 14 16 9"/></svg>
+            </div>
+            <h3>Гарантия и честные цены</h3>
+            <p>Согласовываем стоимость до начала работ. Скидки, спецпредложения и бонусы постоянным клиентам.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================= УСЛУГИ И ЦЕНЫ ======================= -->
+    <section class="section section--alt" id="services">
+      <div class="container">
+        <div class="section__head reveal">
+          <span class="eyebrow">Услуги и цены</span>
+          <h2 class="section__title">Что мы делаем</h2>
+          <p class="section__lead">Цены указаны «от» и носят ориентировочный характер. Точную стоимость менеджер подтвердит после диагностики.</p>
+        </div>
+
+        <div class="services">
+          <article class="service-card reveal">
+            <div class="service-card__icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="3" width="20" height="14" rx="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
+            </div>
+            <h3 class="service-card__title">Компьютерная диагностика</h3>
+            <p class="service-card__desc">Считывание и расшифровка ошибок, диагностика автоэлектрики ВАЗ и иномарок. Возможна выездная диагностика.</p>
+            <div class="service-card__price">от 800 ₽</div>
+            <a href="#lead" class="service-card__link" data-service="Компьютерная диагностика">Записаться →</a>
+          </article>
+
+          <article class="service-card reveal">
+            <div class="service-card__icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 14h13a3 3 0 0 0 3-3V7"/><path d="M3 10v8"/><path d="M16 7h4l1 3"/><circle cx="7" cy="18" r="2"/><circle cx="17" cy="18" r="2"/></svg>
+            </div>
+            <h3 class="service-card__title">Замена масла и ТО</h3>
+            <p class="service-card__desc">Замена масла ДВС, АКПП и редуктора, промывка инжектора, обслуживание системы охлаждения.</p>
+            <div class="service-card__price">от 500 ₽</div>
+            <a href="#lead" class="service-card__link" data-service="Замена масла и ТО">Записаться →</a>
+          </article>
+
+          <article class="service-card reveal">
+            <div class="service-card__icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><line x1="12" y1="3" x2="12" y2="6"/><line x1="12" y1="18" x2="12" y2="21"/><line x1="3" y1="12" x2="6" y2="12"/><line x1="18" y1="12" x2="21" y2="12"/><circle cx="12" cy="12" r="2.5"/></svg>
+            </div>
+            <h3 class="service-card__title">Ремонт подвески и ходовой</h3>
+            <p class="service-card__desc">Замена стоек стабилизатора, шаровых, рычагов, ШРУСов. Стойки стабилизатора в наличии — от 550 ₽.</p>
+            <div class="service-card__price">от 1000 ₽</div>
+            <a href="#lead" class="service-card__link" data-service="Ремонт подвески и ходовой">Записаться →</a>
+          </article>
+
+          <article class="service-card reveal">
+            <div class="service-card__icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="4"/><line x1="12" y1="2" x2="12" y2="4"/><line x1="12" y1="20" x2="12" y2="22"/><line x1="2" y1="12" x2="4" y2="12"/><line x1="20" y1="12" x2="22" y2="12"/></svg>
+            </div>
+            <h3 class="service-card__title">Ремонт тормозной системы</h3>
+            <p class="service-card__desc">Замена колодок, дисков, тормозных шлангов и цилиндров. Прокачка тормозов, диагностика ABS.</p>
+            <div class="service-card__price">от 700 ₽</div>
+            <a href="#lead" class="service-card__link" data-service="Ремонт тормозной системы">Записаться →</a>
+          </article>
+
+          <article class="service-card reveal">
+            <div class="service-card__icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2v6"/><path d="m5 8 2 2"/><path d="m17 10 2-2"/><path d="M5 14h14l-1.5 6.5a2 2 0 0 1-2 1.5H8.5a2 2 0 0 1-2-1.5L5 14z"/><circle cx="12" cy="11" r="2"/></svg>
+            </div>
+            <h3 class="service-card__title">Ремонт двигателя и КПП</h3>
+            <p class="service-card__desc">Ремонт ДВС и КПП, форсунок, стартеров и генераторов, заправка и ремонт автокондиционера.</p>
+            <div class="service-card__price">от 1500 ₽</div>
+            <a href="#lead" class="service-card__link" data-service="Ремонт двигателя и КПП">Записаться →</a>
+          </article>
+
+          <article class="service-card reveal">
+            <div class="service-card__icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M20.91 8.84 8.56 2.23a1.93 1.93 0 0 0-1.81 0L3.1 4.13a2.12 2.12 0 0 0-.05 3.69l12.22 6.93a2 2 0 0 0 1.94 0L21 12.51a2.12 2.12 0 0 0-.09-3.67Z"/><path d="m3.09 8.84 8.66 4.92v8.16"/><path d="M20.91 8.84 12.25 13.76"/></svg>
+            </div>
+            <h3 class="service-card__title">Запчасти в наличии и под заказ</h3>
+            <p class="service-card__desc">Зажигание, подвеска, тормоза, охлаждение, выхлопная система, трансмиссия. Катушки зажигания — от 1000 ₽.</p>
+            <div class="service-card__price">от 550 ₽</div>
+            <a href="#lead" class="service-card__link" data-service="Подбор и продажа запчастей">Подобрать →</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================= ЗАЯВКА ======================= -->
+    <section class="section" id="lead">
+      <div class="container">
+        <div class="lead">
+          <div class="lead__info reveal">
+            <span class="eyebrow">Онлайн-запись</span>
+            <h2 class="section__title">Оставить заявку</h2>
+            <p class="section__lead">
+              Заполните форму — заявка моментально придёт менеджеру в Telegram.
+              Мы подберём запчасти, рассчитаем стоимость и предложим удобное время ремонта.
+            </p>
+            <ul class="lead__list">
+              <li>Ответ в течение 15 минут</li>
+              <li>Подбор запчастей под марку и модель</li>
+              <li>Согласуем цену до начала работ</li>
+            </ul>
+          </div>
+
+          <form class="form reveal" id="leadForm" novalidate>
+            <div class="form__row">
+              <label class="field">
+                <span class="field__label">Имя <i>*</i></span>
+                <input type="text" name="name" class="field__input" placeholder="Как к вам обращаться" required />
+              </label>
+              <label class="field">
+                <span class="field__label">Телефон <i>*</i></span>
+                <input type="tel" name="phone" class="field__input" placeholder="+7 (___) ___-__-__" required />
+              </label>
+            </div>
+
+            <label class="field">
+              <span class="field__label">Email</span>
+              <input type="email" name="email" class="field__input" placeholder="you@example.com" />
+            </label>
+
+            <div class="form__row">
+              <div class="field">
+                <span class="field__label">Марка автомобиля</span>
+                <div class="combo" id="brandCombo">
+                  <input type="text" name="brand" class="field__input combo__input" id="brandInput" placeholder="Выберите или введите марку" autocomplete="off" role="combobox" aria-expanded="false" aria-autocomplete="list" />
+                  <button type="button" class="combo__arrow" tabindex="-1" aria-label="Показать список марок">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
+                  </button>
+                  <ul class="combo__menu" role="listbox" hidden></ul>
+                </div>
+              </div>
+              <div class="field">
+                <span class="field__label">Модель автомобиля</span>
+                <div class="combo" id="modelCombo">
+                  <input type="text" name="model" class="field__input combo__input" id="modelInput" placeholder="Выберите или введите модель" autocomplete="off" role="combobox" aria-expanded="false" aria-autocomplete="list" />
+                  <button type="button" class="combo__arrow" tabindex="-1" aria-label="Показать список моделей">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
+                  </button>
+                  <ul class="combo__menu" role="listbox" hidden></ul>
+                </div>
+              </div>
+            </div>
+
+            <label class="field">
+              <span class="field__label">Услуга</span>
+              <select name="service" class="field__input" id="serviceSelect">
+                <option value="">Выберите услугу</option>
+                <option>Компьютерная диагностика</option>
+                <option>Замена масла и ТО</option>
+                <option>Ремонт подвески и ходовой</option>
+                <option>Ремонт тормозной системы</option>
+                <option>Ремонт двигателя и КПП</option>
+                <option>Подбор и продажа запчастей</option>
+                <option>Другое / не знаю</option>
+              </select>
+            </label>
+
+            <label class="field">
+              <span class="field__label">Комментарий / симптомы</span>
+              <textarea name="comment" class="field__input field__input--area" rows="3" placeholder="Опишите проблему или нужную запчасть: например, «горит Check Engine, нужна катушка зажигания»"></textarea>
+            </label>
+
+            <button type="submit" class="btn btn--primary btn--block" id="submitBtn">
+              Отправить заявку
+            </button>
+            <p class="form__hint">Нажимая кнопку, вы соглашаетесь на обработку персональных данных.</p>
+
+            <div class="form__success" id="formSuccess" hidden>
+              <svg viewBox="0 0 24 24" width="40" height="40" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+              <p>Заявка отправлена менеджеру</p>
+              <span>Спасибо! Мы свяжемся с вами в ближайшее время.</span>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================= АДРЕС ======================= -->
+    <section class="section section--alt" id="address">
+      <div class="container">
+        <div class="section__head reveal">
+          <span class="eyebrow">Как нас найти</span>
+          <h2 class="section__title">Адрес и время работы</h2>
+        </div>
+
+        <div class="address">
+          <div class="address__info reveal">
+            <div class="info-row">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+              <div>
+                <span class="info-row__label">Адрес</span>
+                <p>Октябрьская ул., 59, Саратов</p>
+              </div>
+            </div>
+            <div class="info-row">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+              <div>
+                <span class="info-row__label">Время работы</span>
+                <p>Будни 10:00 – 19:00<br />Суббота и воскресенье — выходной</p>
+              </div>
+            </div>
+            <div class="info-row">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+              <div>
+                <span class="info-row__label">Телефон</span>
+                <p><a href="tel:+79271433332">+7 (927) 143-33-32</a></p>
+              </div>
+            </div>
+            <div class="info-row">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-10 5L2 7"/></svg>
+              <div>
+                <span class="info-row__label">Email</span>
+                <p><a href="mailto:XXX">XXX</a></p>
+              </div>
+            </div>
+          </div>
+
+          <div class="address__map reveal">
+            <iframe
+              src="https://yandex.ru/map-widget/v1/?mode=search&text=%D0%A1%D0%B0%D1%80%D0%B0%D1%82%D0%BE%D0%B2%2C%20%D0%9E%D0%BA%D1%82%D1%8F%D0%B1%D1%80%D1%8C%D1%81%D0%BA%D0%B0%D1%8F%20%D1%83%D0%BB%D0%B8%D1%86%D0%B0%2C%2059&z=16"
+              width="100%" height="100%" frameborder="0" allowfullscreen="true"
+              title="Карта проезда к магазину АстраАвтоСаратов, Октябрьская 59" loading="lazy"></iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================= СВЯЗЬ ======================= -->
+    <section class="section" id="contact">
+      <div class="container">
+        <div class="contact-band reveal">
+          <div>
+            <h2 class="section__title section__title--sm">Остались вопросы?</h2>
+            <p class="section__lead">Позвоните или напишите — поможем подобрать запчасти и запишем на ремонт.</p>
+          </div>
+          <div class="contact-band__links">
+            <a href="tel:+79271433332" class="btn btn--primary">+7 (927) 143-33-32</a>
+            <a href="mailto:XXX" class="btn btn--ghost">XXX</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ======================= ПОДВАЛ ======================= -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div class="footer__col">
+        <a href="#hero" class="logo logo--footer">
+          <span class="logo__mark" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 1 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-4 0v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 1 1-2.83-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1 0-4h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 1 1 2.83-2.83l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 4 0v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 1 1 2.83 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1z"/></svg>
+          </span>
+          <span class="logo__text">АстраАвто<span>Саратов</span></span>
+        </a>
+        <p class="footer__about">Магазин автозапчастей и автосервис в Саратове. Запчасти для отечественных авто и иномарок, диагностика и ремонт.</p>
+      </div>
+      <div class="footer__col">
+        <h4>Контакты</h4>
+        <a href="tel:+79271433332">+7 (927) 143-33-32</a>
+        <a href="mailto:XXX">XXX</a>
+      </div>
+      <div class="footer__col">
+        <h4>Адрес</h4>
+        <p>Октябрьская ул., 59, Саратов</p>
+        <p>Будни 10:00 – 19:00<br />Сб, Вс — выходной</p>
+      </div>
+    </div>
+    <div class="container footer__bottom">
+      <p>© <span id="year"></span> АстраАвтоСаратов. Все права защищены.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
