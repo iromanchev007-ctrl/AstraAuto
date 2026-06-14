@@ -130,7 +130,7 @@ a { color: inherit; text-decoration: none; }
 }
 .logo__mark svg { width: 21px; height: 21px; }
 .logo__text { font-size: 19px; letter-spacing: -0.3px; }
-.logo__text span { color: var(--muted-2); }
+.logo__text span { color: inherit; }
 
 .nav { display: flex; align-items: center; gap: 30px; }
 .nav__link {
@@ -228,7 +228,7 @@ a { color: inherit; text-decoration: none; }
   letter-spacing: -1px;
   margin-bottom: 24px;
 }
-.accent { color: var(--text); }
+.accent { color: inherit; }
 .hero__subtitle {
   font-size: clamp(1.05rem, 2vw, 1.25rem);
   color: var(--muted);
